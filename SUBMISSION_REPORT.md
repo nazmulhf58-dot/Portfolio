@@ -46,6 +46,8 @@ All code, design architecture, styling, and interactivity implemented in this po
 The project was developed in incremental milestones rather than a bulk commit, satisfying the requirement of **5–7 minimum meaningful commits**:
 
 ```text
+* commit 1986ea4 - feat: Add authentic user profile photograph and optimize portrait framing
+* commit 65da337 - docs: Finalize portfolio documentation, deployment guide, and submission report
 * commit 266a60a - feat(js): Add theme toggle, scrollspy, typing effect, modal dialog, and form validation
 * commit 008b1ef - feat: Add toast notification, back-to-top button, and comprehensive responsive media queries
 * commit 2372a04 - feat: Add experience, education timeline, and contact section with form validation styles
