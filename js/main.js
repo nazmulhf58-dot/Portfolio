@@ -1,17 +1,17 @@
 /**
- * ============================================================================
+ * =============================================================
  * NAZMUL HASSAN - PERSONAL PORTFOLIO INTERACTIVE LOGIC
  * 100% Vanilla JavaScript (ES6+) • Zero Third-Party Dependencies
  * CSE 471: Web and Internet Programming (Summer 2026)
- * ============================================================================
+ * =============================================================
  */
 
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
-  /* --------------------------------------------------------------------------
+  /* 
      1. PROJECT DATA REPOSITORY (For Modal Quick-View)
-     -------------------------------------------------------------------------- */
+     ------- */
   const projectsData = {
     codeflow: {
       title: 'CodeFlow — Developer Collaboration Dashboard',
@@ -75,9 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  /* --------------------------------------------------------------------------
+  /* 
      2. THEME MANAGER (Dark / Light Mode with Persistence)
-     -------------------------------------------------------------------------- */
+     */
   const themeToggleBtn = document.getElementById('themeToggleBtn');
   const THEME_STORAGE_KEY = 'nh_portfolio_theme';
 
@@ -117,9 +117,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  /* --------------------------------------------------------------------------
+  /* 
      3. FLOATING HEADER & ACTIVE SCROLLSPY NAVIGATION
-     -------------------------------------------------------------------------- */
+      */
   const siteHeader = document.getElementById('siteHeader');
   const navLinks = document.querySelectorAll('.desktop-nav .nav-link');
   const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
@@ -172,9 +172,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* --------------------------------------------------------------------------
+  /* 
      4. MOBILE NAVIGATION DRAWER
-     -------------------------------------------------------------------------- */
+    */
   const mobileMenuBtn = document.getElementById('mobileMenuBtn');
   const mobileNavDrawer = document.getElementById('mobileNavDrawer');
 
@@ -225,9 +225,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* --------------------------------------------------------------------------
+  /* 
      5. DYNAMIC TYPEWRITER EFFECT IN HERO
-     -------------------------------------------------------------------------- */
+      */
   const typewriterElement = document.getElementById('typewriterText');
   if (typewriterElement) {
     const words = [
@@ -272,9 +272,9 @@ document.addEventListener('DOMContentLoaded', () => {
     typeLoop();
   }
 
-  /* --------------------------------------------------------------------------
+  /* 
      6. PROJECT FILTER SYSTEM
-     -------------------------------------------------------------------------- */
+      */
   const filterButtons = document.querySelectorAll('.filter-btn');
   const projectCards = document.querySelectorAll('.project-card');
 
@@ -308,9 +308,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* --------------------------------------------------------------------------
+  /* 
      7. PROJECT DETAILS MODAL (<dialog>) WITH LIGHT-DISMISS FALLBACK
-     -------------------------------------------------------------------------- */
+      */
   const projectModal = document.getElementById('projectModal');
   const modalCloseBtn = document.getElementById('modalCloseBtn');
   const modalDismissBtn = document.getElementById('modalDismissBtn');
@@ -397,9 +397,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* --------------------------------------------------------------------------
+  /* 
      8. ANIMATED STATISTICS COUNTERS (IntersectionObserver)
-     -------------------------------------------------------------------------- */
+      */
   const metricsSection = document.getElementById('metricsSection');
   const metricNumbers = document.querySelectorAll('.metric-number');
   let metricsAnimated = false;
@@ -438,9 +438,9 @@ document.addEventListener('DOMContentLoaded', () => {
     metricsObserver.observe(metricsSection);
   }
 
-  /* --------------------------------------------------------------------------
+  /* 
      9. CONTACT FORM VALIDATION & TOAST NOTIFICATIONS
-     -------------------------------------------------------------------------- */
+      */
   const contactForm = document.getElementById('contactForm');
   const submitBtn = document.getElementById('submitBtn');
 
@@ -542,9 +542,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* --------------------------------------------------------------------------
+  /* 
      10. TOAST NOTIFICATION SYSTEM
-     -------------------------------------------------------------------------- */
+      */
   const toastContainer = document.getElementById('toastContainer');
 
   function showToast(title, message, type = 'info', duration = 3500) {
@@ -589,9 +589,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Export showToast globally if needed
   window.showToast = showToast;
 
-  /* --------------------------------------------------------------------------
+  /* 
      11. FLOATING BACK TO TOP BUTTON
-     -------------------------------------------------------------------------- */
+      */
   const backToTopBtn = document.getElementById('backToTopBtn');
 
   if (backToTopBtn) {
@@ -611,9 +611,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* --------------------------------------------------------------------------
+  /* 
      12. SMOOTH SCROLL FOR IN-PAGE ANCHORS
-     -------------------------------------------------------------------------- */
+      */
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener('click', function(e) {
       const targetId = this.getAttribute('href');
