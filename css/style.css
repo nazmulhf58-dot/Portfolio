@@ -1,11 +1,10 @@
-/* ==========================================================================
+/* 
    NAZMUL HASSAN - PERSONAL PORTFOLIO STYLESHEET
-   100% Vanilla CSS3 • CSE 471: Web and Internet Programming (Summer 2026)
-   ========================================================================== */
+    */
 
-/* --------------------------------------------------------------------------
+/* --------
    1. DESIGN TOKENS & CSS VARIABLES
-   -------------------------------------------------------------------------- */
+   -------- */
 :root {
   /* Color Scheme Declaration for Native Controls (Modern Web Guidance) */
   color-scheme: light dark;
@@ -386,9 +385,9 @@ button, input, textarea {
   width: 100%;
 }
 
-/* --------------------------------------------------------------------------
+/* ------------
    3. FLOATING PILL NAVIGATION HEADER
-   -------------------------------------------------------------------------- */
+   ------------ */
 .site-header {
   position: fixed;
   top: 1.25rem;
@@ -637,9 +636,9 @@ button, input, textarea {
   border-top: 1px solid var(--border-subtle);
 }
 
-/* --------------------------------------------------------------------------
+/* -------------
    4. HERO SECTION
-   -------------------------------------------------------------------------- */
+   ------------- */
 .hero-section {
   padding-top: calc(var(--header-height) + 4rem);
   padding-bottom: 4rem;
@@ -936,9 +935,9 @@ button, input, textarea {
   text-decoration: underline;
 }
 
-/* --------------------------------------------------------------------------
+/* --------------
    6. TECH STACK & INFINITE MARQUEE
-   -------------------------------------------------------------------------- */
+   --------------- */
 .skills-section {
   background: var(--gradient-card);
   border-top: 1px solid var(--border-subtle);
@@ -1107,9 +1106,9 @@ button, input, textarea {
   margin-top: 0.45rem;
 }
 
-/* --------------------------------------------------------------------------
+/* -------
    7. FEATURED PROJECTS & FILTERABLE GRID
-   -------------------------------------------------------------------------- */
+   ----------- */
 .filter-controls {
   display: flex;
   align-items: center;
@@ -1269,9 +1268,9 @@ button, input, textarea {
   border-top: 1px solid var(--border-subtle);
 }
 
-/* --------------------------------------------------------------------------
+/* -------
    8. INTERACTIVE PROJECT DETAILS MODAL (<dialog>)
-   -------------------------------------------------------------------------- */
+   -------- */
 dialog.project-modal {
   margin: auto;
   padding: 0;
@@ -1436,9 +1435,9 @@ dialog.project-modal[open]::backdrop {
   border-top: 1px solid var(--border-subtle);
 }
 
-/* --------------------------------------------------------------------------
+/* --------
    9. TIMELINE / EDUCATION & EXPERIENCE
-   -------------------------------------------------------------------------- */
+   ------ */
 .timeline-section {
   background: var(--gradient-card);
   border-top: 1px solid var(--border-subtle);
@@ -1549,9 +1548,9 @@ dialog.project-modal[open]::backdrop {
   gap: 0.45rem;
 }
 
-/* --------------------------------------------------------------------------
+/* -----
    10. CONTACT SECTION & INTERACTIVE FORM
-   -------------------------------------------------------------------------- */
+   ---- */
 .contact-section {
   border-top: 1px solid var(--border-subtle);
 }
@@ -1779,9 +1778,9 @@ dialog.project-modal[open]::backdrop {
   display: inline-block;
 }
 
-/* --------------------------------------------------------------------------
+/* 
    11. SITE FOOTER
-   -------------------------------------------------------------------------- */
+    */
 .site-footer {
   border-top: 1px solid var(--border-subtle);
   background: var(--bg-surface);
@@ -1826,9 +1825,9 @@ dialog.project-modal[open]::backdrop {
   color: var(--color-primary);
 }
 
-/* --------------------------------------------------------------------------
+/* 
    12. TOAST NOTIFICATIONS & BACK TO TOP
-   -------------------------------------------------------------------------- */
+    */
 .toast-container {
   position: fixed;
   bottom: 2rem;
@@ -1975,9 +1974,9 @@ dialog.project-modal[open]::backdrop {
   transform: translateY(0);
 }
 
-/* --------------------------------------------------------------------------
+/* ------------------------------------
    13. COMPREHENSIVE RESPONSIVE DESIGN (Media Queries)
-   -------------------------------------------------------------------------- */
+   ----------------------------------- */
 
 /* Tablet & Smaller Laptops (<= 1024px) */
 @media screen and (max-width: 1024px) {
