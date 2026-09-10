@@ -2,7 +2,6 @@
  * NAZMUL HASSAN - PERSONAL PORTFOLIO INTERACTIVE LOGIC
  
  */
-
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
