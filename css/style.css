@@ -2,9 +2,6 @@
    NAZMUL HASSAN - PERSONAL PORTFOLIO STYLESHEET
     */
 
-/* --------
-   1. DESIGN TOKENS & CSS VARIABLES
-   -------- */
 :root {
   /* Color Scheme Declaration for Native Controls (Modern Web Guidance) */
   color-scheme: light dark;
