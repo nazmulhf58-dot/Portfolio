@@ -1,9 +1,6 @@
-/**
- * =============================================================
+/*
  * NAZMUL HASSAN - PERSONAL PORTFOLIO INTERACTIVE LOGIC
- * 100% Vanilla JavaScript (ES6+) • Zero Third-Party Dependencies
- * CSE 471: Web and Internet Programming (Summer 2026)
- * =============================================================
+ 
  */
 
 document.addEventListener('DOMContentLoaded', () => {
