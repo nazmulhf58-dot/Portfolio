@@ -4,7 +4,6 @@
  */
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
-
   /* 
      1. PROJECT DATA REPOSITORY (For Modal Quick-View)
      ------- */
