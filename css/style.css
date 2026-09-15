@@ -1,7 +1,6 @@
 /* 
    NAZMUL HASSAN - PERSONAL PORTFOLIO STYLESHEET
     */
-
 :root {
   /* Color Scheme Declaration for Native Controls (Modern Web Guidance) */
   color-scheme: light dark;
@@ -93,9 +92,9 @@
   --ambient-bottom: rgba(139, 92, 246, 0.06);
 }
 
-/* --------------------------------------------------------------------------
+/* ------------------------
    2. RESET & GLOBAL STYLES
-   -------------------------------------------------------------------------- */
+   -------------------------*/
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
